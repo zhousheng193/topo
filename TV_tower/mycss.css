@@ -1,0 +1,44 @@
+.panel-body{
+    background:#ffffff;
+}
+.panel-header{
+    background:#fff url('images/panel_header_bg.gif') no-repeat top right;
+}
+.panel-tool-collapse{
+    background:url('images/arrow_up.gif') no-repeat 0px -3px;
+}
+.panel-tool-expand{
+    background:url('images/arrow_down.gif') no-repeat 0px -3px;
+}
+.title-panel{
+    height:auto;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.jigui{
+    background:url('images/jigui.png') no-repeat center;
+}
+.imgtitleDl{
+    display: flex;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+}
+.imgtitleDl dd{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 60px;
+    text-align: center;
+}
+.imgtitleDl dd .item{
+
+}
+.imgtitleDl dd .item .img{
+    width: 48px;
+    height: 48px;
+}
+.imgtitleDl dd .item .title{
+    white-space: pre;
+}
+.error{
+    color:red;
+}

@@ -1,0 +1,88 @@
+
+#graph_panel {
+    height: 100%;
+}
+
+.tabs-panels .panel-body {
+    border-left: solid 1px #DDD;
+    border-right: solid 1px #DDD;
+}
+
+.tree-node {
+    height: 20px;
+}
+
+.q-panel {
+    position: relative;
+}
+
+.q-toolbar {
+    padding: 5px;
+}
+
+.q-panel .q-toolbar {
+    position: absolute;
+    top: 0px;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
+
+.q-panel .q-content {
+    height: 100%;
+    background-color: #FFF;
+    overflow: hidden;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: relative;
+}
+
+#canvas {
+    width: 100%;
+    background-color: #FFF;
+    outline: none;
+    overflow: hidden;
+}
+
+#toolbar {
+    background-color: #F8F8F8;
+    border-bottom: solid 1px #DDD;
+    padding: 5px;
+}
+
+#toolbar .btn, #toolbar .btn-group {
+    margin-right: 5px;
+}
+
+#toolbar .btn-group .btn {
+    margin-right: 0px;
+}
+
+.layout-split-west {
+    border-right: 5px solid rgba(255, 255, 255, 0);
+}
+
+#center_panel {
+    border: none;
+}
+
+.panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*.tree-file{*/
+    /*background: url('images/tv_tower_a.png') no-repeat;*/
+    /*background-size: 18px;*/
+    /*background-position: center;*/
+/*}*/
+.tree-folder{
+    background: url('images/tv_tower_a.png') no-repeat;
+    background-size: 18px;
+    background-position: center;
+}
+@font-face
+{
+    font-family: digitalFont;
+    src: url("./res/Let's go Digital Regular.ttf")
+}

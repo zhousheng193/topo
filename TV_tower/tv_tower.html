@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>广电总局设备分布图</title>
+    <script src="./libs/qunee-min.js"></script>
+    <!-- build:js js.js -->
+    <script type="text/javascript" src="./libs/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="./libs/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./libs/jquery-easyui-1.5/jquery.easyui.min.js"></script>
+    <!--<script src="./libs/qunee/qunee-min.js"></script>-->
+    <script src="./libs/qunee/i18n.js"></script>
+    <script src="./libs/qunee/Toolbar.js"></script>
+    <script src="./libs/qunee/Exportpane.js"></script>
+    <script src="./libs/qunee/PopupMenu.js"></script>
+    <script src="./libs/qunee/map/MapChart.js"></script>
+    <script src="./libs/qunee/map/Projection.js"></script>
+    <script src="./libs/qunee/map/topojson.js"></script>
+    <script src="./libs/qunee/map/data/MapDatas.js"></script>
+    <script src="js.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:css styles.css -->
+    <link rel="stylesheet" href="./toolbar.css"/>
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./libs/jquery-easyui-1.5/themes/gray/easyui.css">
+    <!--<link rel="stylesheet" type="text/css" href="./libs/jquery-easyui-1.3.6/themes/icon.css">-->
+    <link rel="stylesheet" type="text/css" href="./css.css">
+    <link rel="stylesheet" type="text/css" href="./mycss.css">
+    <!-- endbuild -->
+</head>
+<body class="easyui-layout">
+<div style="display: none;">
+<div id="tree" data-options="region:'west',split:true" border="false"
+     style="width:200px;padding-left: 10px;display: none;">
+    <!--<ul id="tree" class="easyui-tree"></ul>-->
+</div>
+</div>
+<div data-options="region:'center'">
+    <div title="" id="graph_panel" class="q-panel">
+        <div id="toolbar" class="q-toolbar" style="display: none;"></div>
+        <div id="canvas" class="q-content"></div>
+    </div>
+</div>
+<div data-options="region:'east',title:'机房详细信息',split:false,collapsible:false" style="width:254px;">
+    <div style="width:100%;height:auto;padding:10px;">
+        <div class="easyui-panel title-panel" title="<span class='error'>河西机房</span>" collapsible="true" >
+            <dl class="imgtitleDl">
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span class="error">机柜（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>服务器（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>虚拟机（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>交换机（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>路由（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>防火墙（1）</span></div>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+        <div class="easyui-panel title-panel" title="四方坪机房" collapsible="true">
+            <dl class="imgtitleDl">
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>机柜（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>服务器（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>虚拟机（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>交换机（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>路由（1）</span></div>
+                    </div>
+                </dd>
+                <dd>
+                    <div class="item">
+                        <div class="img jigui"></div>
+                        <div class="title"><span>防火墙（1）</span></div>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

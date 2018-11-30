@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "parentId": -1,
+    "text": "广电总局",
+    "children": [
+      {
+        "lon": 116,
+        "lat": 40,
+        "id": 3,
+        "parentId": 1,
+        "text": "北京市",
+        "children": [
+          {
+            "lon": 116.385,
+            "lat": 40.2,
+            "id": 9,
+            "parentId": 3,
+            "text": "塔-A"
+          },
+          {
+            "lon": 116.085,
+            "lat": 40.14,
+            "id": 11,
+            "parentId": 3,
+            "text": "塔-B"
+          },
+          {
+            "lon": 116.785,
+            "lat": 40.1,
+            "id": 13,
+            "parentId": 3,
+            "text": "塔-C"
+          },
+          {
+            "lon": 115.985,
+            "lat": 40.5,
+            "id": 15,
+            "parentId": 3,
+            "text": "北京XX站"
+          },
+          {
+            "lon": 116.385,
+            "lat": 39.8,
+            "id": 17,
+            "parentId": 3,
+            "text": "中央XX塔"
+          }
+        ]
+      },
+      {
+        "lon": 113,
+        "lat": 28,
+        "id": 6,
+        "parentId": 1,
+        "text": "长沙市",
+        "children": [
+          {
+            "lon": 112.8539135084,
+            "lat": 28.2214642456,
+            "id": 18,
+            "parentId": 6,
+            "text": "河西机房"
+          },
+          {
+            "lon": 113.0085621247,
+            "lat": 28.2474281277,
+            "id": 19,
+            "parentId": 6,
+            "text": "四方平机房"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "parentId": 1,
+        "text": "四川省",
+        "lon": 104.06,
+        "lat": 30.67,
+        "children": [
+          {
+            "lon": 104.06,
+            "lat": 30.67,
+            "id": 19,
+            "parentId": 5,
+            "text": "中心站"
+          },
+          {
+            "lon": 102.06,
+            "lat": 30.07,
+            "parentId": 5,
+            "id": 20,
+            "text": "中心站2"
+          },
+          {
+            "lon": 104.16,
+            "lat": 28.87,
+            "parentId": 5,
+            "id": 21,
+            "text": "中心站3"
+          }
+        ]
+      }
+    ]
+  }
+]
